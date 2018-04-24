@@ -2,7 +2,7 @@ def line(deli_line)
   if deli_line.length < 1
     puts "The line is currently empty."
   elsif deli_line.length > 0
-      return deli_line
+    deli_line
       puts "The line is currently: #{deli_line[0]}"
   end
 end

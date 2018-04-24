@@ -5,7 +5,7 @@ def line(deli_line)
   else # deli_line.length > 0
     deli_line
     deli_line.each_with_index do |name, num|
-
+      num += 1
       persons_array.push("#{num}. #{name}")
     end
       puts "The line is currently: #{persons_array.join(" ")}"

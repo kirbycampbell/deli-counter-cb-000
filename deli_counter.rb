@@ -8,7 +8,7 @@ def line(deli_line)
       #idx += 1
       persons_array.push("#{num}. #{name}")
       end
-       puts "The line is currently: #{persons_array.join(" ")}"
+      return puts "The line is currently: #{persons_array.join(" ")}"
   end
 end
 

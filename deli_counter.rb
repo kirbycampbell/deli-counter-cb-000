@@ -4,7 +4,7 @@ def line(deli_line)
   elsif deli_line.length > 0
     deli_line
     deli_line.each_with_index do |num, idx|
-      idx += 1
+      idx += 2
       puts "The line is currently: #{idx}. #{num}"
     end
   end

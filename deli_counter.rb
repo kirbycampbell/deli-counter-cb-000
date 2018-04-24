@@ -2,8 +2,8 @@ def line(deli_line)
   persons_array = []
   if deli_line.length < 1
     puts "The line is currently empty."
-  else # deli_line.length > 0
-    deli_line
+  else
+    #deli_line
     deli_line.each_with_index do |name, num|
       num += 1
       persons_array.push("#{num}. #{name}")

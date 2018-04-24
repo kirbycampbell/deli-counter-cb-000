@@ -4,9 +4,9 @@ def line(deli_line)
   elsif deli_line.length > 0
     #deli_line
     #puts "The line is currently:"
-    deli_line.each_with_index(1) do |num, idx|
+    deli_line.each_with_index do |name, num|
       idx += 1
-      persons_array.push("#{idx}. #{num}")
+      persons_array.push("#{num}. #{name}")
       end
        puts "The line is currently: #{persons_array.join(" ")}"
   end

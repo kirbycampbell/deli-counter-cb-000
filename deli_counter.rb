@@ -3,13 +3,9 @@ def line(deli_line)
     puts "The line is currently empty."
   elsif deli_line.length > 0
     deli_line
-    deli_line.each_with_index do |name, num|
+    deli_line.each_with_index do |num, idx|
       idx += 1
-      puts "The line is currently:"
-        #while idx <= deli_line.length
-          #puts " #{num}. #{name}"
-          #idx += 1
-        #end
+      puts "The line is currently: #{idx}. #{num}"
     end
   end
 end

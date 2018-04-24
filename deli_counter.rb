@@ -6,7 +6,7 @@ def line(deli_line)
     deli_line.each_with_index do |name, num|
       idx += 1
       puts "The line is currently:"
-        while idx < deli_line.length
+        while idx <= deli_line.length
           puts " #{num}. #{name}"
           idx += 1
         end

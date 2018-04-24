@@ -1,4 +1,5 @@
 def line(deli_line)
+  persons_array = []
   if deli_line.length < 1
     puts "The line is currently empty."
   else # deli_line.length > 0

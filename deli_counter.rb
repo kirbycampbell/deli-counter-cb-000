@@ -3,7 +3,10 @@ def line(deli_line)
     puts "The line is currently empty."
   elsif deli_line.length > 0
     deli_line
-      puts "The line is currently: #{deli_line[0]}"
+    deli_line.each_with_index do |num, idx|
+      idx += 1
+      puts "The line is currently: #{idx}. #{num}"
+    end
   end
 end
 

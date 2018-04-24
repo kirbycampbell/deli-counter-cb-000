@@ -12,7 +12,7 @@ def take_a_number(deli_line, name)
   puts "Welcome, #{deli_line[-1]}. You are number #{deli_line.length} in line."
 end
 
-def now_serving(deli_line, name)
+def now_serving(deli_line)
   if deli_line.length < 1
     puts "There is nobody waiting to be served!"
   elsif deli_line.length > 0

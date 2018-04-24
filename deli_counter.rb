@@ -6,6 +6,7 @@ def line(deli_line)
     deli_line.each_with_index do |num, idx|
       idx += 1
       puts "The line is currently: #{idx}. #{num}"
+    end
   end
 end
 

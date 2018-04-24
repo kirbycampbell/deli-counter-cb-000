@@ -4,8 +4,8 @@ def line(deli_line)
     puts "The line is currently empty."
   else # deli_line.length > 0
     deli_line
-    deli_line.each_with_index(1) do |name, num|
-      num += 1
+    deli_line.each_with_index do |name, num|
+
       persons_array.push("#{num}. #{name}")
     end
       puts "The line is currently: #{persons_array.join(" ")}"

@@ -11,6 +11,7 @@ def line(deli_line)
        puts "The line is currently: #{persons_array.join(" ")}"
   end
 end
+end
 
 def take_a_number(deli_line, name)
   deli_line << name
